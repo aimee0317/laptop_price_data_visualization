@@ -14,7 +14,7 @@ Here is a demo of the dashboard:
 
 ## Usage 
 ### Online 
-Use the dashboard online by clicking the Streamlit ![link](https://laptop-price-visualization-dashboard.streamlit.app/)
+Use the dashboard online by clicking the Streamlit https://laptop-price-visualization-dashboard.streamlit.app/
 
 ### Local 
 To run the app locally
