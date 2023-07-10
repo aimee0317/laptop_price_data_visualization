@@ -74,7 +74,7 @@ if not st.sidebar.checkbox('Hide', True, key='3'):
         st.plotly_chart(fig)
         
 st.sidebar.markdown('### Breandown brand by operating system type')
-choice= st.sidebar.multiselect('Pick drive type(s)', ('windows', 'linux', 'ubuntu', 'mac os'), key='4')
+choice= st.sidebar.multiselect('Pick os type(s)', ('windows', 'linux', 'ubuntu', 'mac os'), key='4')
 if len(choice) > 0:
     choice_data = data[data['os_type'].isin(choice)]
     fig_choice = px.histogram(choice_data, x='os_type', y='Brand', histfunc='count', color='Brand', facet_col='Brand',
