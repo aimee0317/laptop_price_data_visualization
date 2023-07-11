@@ -10,7 +10,7 @@ Additionally, users have the option to select one or more operating system types
 
 ## Demo 
 Here is a demo of the dashboard: 
-![demo](dashboard.gif)
+![demo](dashboard1.gif)
 
 ## Usage 
 ### Online 
